@@ -8,6 +8,12 @@ A Scanpy-based scRNA-seq analysis pipeline applied to the publicly available dat
 
 ---
 
+## Viewing the Notebook
+
+▶️ **[View the fully rendered notebook with all plots on nbviewer](https://nbviewer.org/github/jaysmitachaliha/scRNA-Analysis/blob/main/scRNA_Analysis.ipynb)**
+
+---
+
 ## Overview
 
 This notebook walks through a complete single-cell transcriptomics workflow:
@@ -34,25 +40,6 @@ This notebook walks through a complete single-cell transcriptomics workflow:
 - **Conditions:** Cancer vs Normal (matched samples, 5 Normal + 7 Cancer donors)
 - **Platform:** 10x Genomics Chromium
 - **Format:** 10x MTX (matrix, barcodes, features)
-
----
-
-## Viewing the Notebook
-
-There are three ways to view this analysis:
-
-**1. GitHub Pages (recommended)** — view the fully rendered notebook as a webpage, no installation needed:
-> 🔗 `https://jaysmitachaliha.github.io/YOUR_REPO_NAME/`
-> *(replace `YOUR_REPO_NAME` with your actual repository name)*
-
-**2. Download the HTML** — download `Project_Code_Notebook.html` from this repo and open it in any browser.
-
-**3. GitHub preview** — GitHub renders the notebook directly, though large notebooks may not always display correctly.
-
-To regenerate the HTML after making changes to the notebook:
-```bash
-jupyter nbconvert --to html Project_Code_Notebook.ipynb
-```
 
 ---
 
@@ -102,16 +89,10 @@ pip install -r requirements.txt
 4. **Run the notebook** top to bottom:
 
     ```bash
-    jupyter notebook Project_Code_Notebook.ipynb
+    jupyter notebook scRNA_Analysis.ipynb
     ```
 
-5. **Export to HTML** for sharing:
-
-    ```bash
-    jupyter nbconvert --to html Project_Code_Notebook.ipynb
-    ```
-
-> The `data/` folder and all output files are excluded from version control via `.gitignore`. Only the notebook, HTML export, README, and requirements file are tracked.
+> The `data/` folder and all output files are excluded from version control via `.gitignore`. Only the notebook and README are tracked.
 
 ---
 
