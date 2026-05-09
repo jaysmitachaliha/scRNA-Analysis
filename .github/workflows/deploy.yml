@@ -31,6 +31,7 @@ jobs:
 
       - name: Convert notebook to HTML
         run: |
+          mkdir -p _site
           python -c "
           import nbformat
           from nbconvert import HTMLExporter
@@ -39,7 +40,7 @@ jobs:
           exporter = HTMLExporter()
           exporter.exclude_input = True
           body, _ = exporter.from_notebook_node(nb)
-          with open('index.html', 'w') as f:
+          with open('_site/index.html', 'w') as f:
               f.write(body)
           print('Done')
           "
