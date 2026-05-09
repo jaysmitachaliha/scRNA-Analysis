@@ -1,0 +1,47 @@
+# ======================
+# Data files (large / raw)
+# ======================
+data/
+*.h5ad
+*.h5
+*.loom
+*.mtx
+*.mtx.gz
+*.tsv.gz
+*.barcodes.tsv
+*.features.tsv
+*.genes.tsv
+
+# ======================
+# Analysis outputs
+# ======================
+*.csv
+*.txt
+GSEA_*/
+figures/
+cache/
+__pycache__/
+
+# ======================
+# Notebook checkpoints
+# ======================
+.ipynb_checkpoints/
+*.pyc
+
+# ======================
+# OS / editor junk
+# ======================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ======================
+# Python environments
+# ======================
+.env
+venv/
+env/
+*.egg-info/
+dist/
+build/
