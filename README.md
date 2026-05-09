@@ -8,12 +8,6 @@ A Scanpy-based scRNA-seq analysis pipeline applied to the publicly available dat
 
 ---
 
-## Viewing the Notebook
-
-▶️ **[View the fully rendered notebook with all plots on nbviewer](https://nbviewer.org/github/jaysmitachaliha/scRNA-Analysis/blob/main/scRNA_Analysis_Executed.ipynb)**
-
----
-
 ## Overview
 
 This notebook walks through a complete single-cell transcriptomics workflow:
