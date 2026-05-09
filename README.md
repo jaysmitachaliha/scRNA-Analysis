@@ -2,7 +2,7 @@
 
 **Author:** [Jaysmita Chaliha](https://github.com/jaysmitachaliha)
 
-A Scanpy-based scRNA-seq analysis pipeline applied to the publicly available dataset **GSE184880**, which profiles colorectal cancer and matched normal tissue samples.
+A Scanpy-based scRNA-seq analysis pipeline applied to the publicly available dataset **GSE184880**, which profiles high-grade serous ovarian cancer (HGSOC) and matched normal ovarian tissue samples.
 
 > **New here?** Start by running **Section 0** in the notebook — it handles organising the raw data automatically.
 
@@ -10,7 +10,7 @@ A Scanpy-based scRNA-seq analysis pipeline applied to the publicly available dat
 
 ## Viewing the Notebook
 
-▶️ **[View the fully rendered notebook with all plots on nbviewer](https://nbviewer.org/github/jaysmitachaliha/scRNA-Analysis/blob/main/scRNA_Analysis.ipynb)**
+▶️ **[View the fully rendered notebook with all plots on nbviewer](https://nbviewer.org/github/jaysmitachaliha/scRNA-Analysis/blob/main/scRNA_Analysis_Executed.ipynb)**
 
 ---
 
@@ -36,10 +36,13 @@ This notebook walks through a complete single-cell transcriptomics workflow:
 ## Dataset
 
 - **Accession:** [GSE184880](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE184880)
-- **Tissue:** Colorectal cancer
-- **Conditions:** Cancer vs Normal (matched samples, 5 Normal + 7 Cancer donors)
-- **Platform:** 10x Genomics Chromium
-- **Format:** 10x MTX (matrix, barcodes, features)
+- **Title:** Single-cell RNA sequencing reveals tissue architecture during human high-grade serous ovarian cancer progression
+- **Tissue:** Ovarian — HGSOC tumour and matched normal ovarian tissue
+- **Conditions:** Cancer (HGSOC, early and late stage) vs Normal (age-matched non-malignant ovarian samples)
+- **Samples:** 12 total — 5 Normal, 7 Cancer (HGSOC1–7)
+- **Cells:** 59,324 total
+- **Platform:** Illumina NovaSeq 6000 via 10x Genomics Chromium
+- **Citation:** Xu et al. (2022) — Women's Hospital, Zhejiang University School of Medicine
 
 ---
 
@@ -89,7 +92,7 @@ pip install -r requirements.txt
 4. **Run the notebook** top to bottom:
 
     ```bash
-    jupyter notebook scRNA_Analysis.ipynb
+    jupyter notebook scRNA_Analysis_Executed.ipynb
     ```
 
 > The `data/` folder and all output files are excluded from version control via `.gitignore`. Only the notebook and README are tracked.
