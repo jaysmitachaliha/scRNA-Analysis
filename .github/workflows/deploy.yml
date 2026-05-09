@@ -34,7 +34,7 @@ jobs:
           python -c "
           import nbformat
           from nbconvert import HTMLExporter
-          with open('scRNA_Analysis_Executed.ipynb') as f:
+          with open('scRNA_Analysis.ipynb') as f:
               nb = nbformat.read(f, as_version=4)
           exporter = HTMLExporter()
           exporter.exclude_input = True
