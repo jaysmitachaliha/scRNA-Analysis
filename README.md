@@ -8,6 +8,15 @@ A Scanpy-based scRNA-seq analysis pipeline applied to the publicly available dat
 
 ---
 
+## Notebooks
+
+| File | Purpose |
+|------|---------|
+| `scRNA_Analysis.ipynb` | Clean code, no outputs — use this if you want to **reproduce the analysis** on your own data |
+| `scRNA_Analysis_Executed.ipynb` | Same notebook with all plots and outputs included — use this if you want to **read or explore the results** |
+
+---
+
 ## Overview
 
 This notebook walks through a complete single-cell transcriptomics workflow:
